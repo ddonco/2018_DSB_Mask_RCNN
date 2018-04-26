@@ -12,7 +12,7 @@ Download or clone the repository and open the Jupyter notebook titled capstone_m
 
 *Zipped folders in /data must be unzipped with the folder name unchanged before using notebooks.
 
-/logs contains the saved weights of the solution model of Mask R-CNN with a ResNet101 backbone.
+The Mask R-CNN solution model must be trained at least once to generate a model weights file. The weights file will be be saved in the /logs directory (will automatically generate) withing /mask_rcnn.
 
 /output contains the submission file of the predicted masks from the solution model. This file can be evaluated and scorred using capstone_test_score.ipynb.
 
